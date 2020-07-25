@@ -35,8 +35,9 @@ namespace FinancialPortfolioCalculator
 
         private void btnNewTrans_Click(object sender, EventArgs e)
         {
-
-            
+            //Decleares new instance of the form and opens it.
+            NewTransactionStock form2 = new NewTransactionStock();
+            form2.Show();
         }
     }
 }
